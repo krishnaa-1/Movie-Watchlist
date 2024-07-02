@@ -26,16 +26,7 @@ const HomePage = () => {
       rating: 0,
       review: ''
     },
-    {
-      id: 1719887152303,
-      title: 'The Dark Knight',
-      description: 'The Dark Knight, directed by Christopher Nolan, follows Batman as he faces the Joker, a criminal mastermind. The Joker plunges Gotham into anarchy, challenging Batman’s limits and moral code. The film is celebrated for its complex characters, intense action, and philosophical themes.',
-      releaseYear: 2008,
-      genre: 'Action',
-      watched: true,
-      rating: 0,
-      review: ''
-    }
+
   ]);
 
   const [showForm, setShowForm] = useState(false);
