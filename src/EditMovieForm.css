@@ -1,0 +1,58 @@
+/* EditMovieForm.css */
+
+.edit-movie-form {
+    background-color: #222; /* Darker background */
+    color: #fff; /* White text */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.edit-movie-form label {
+    margin-bottom: 10px;
+}
+
+.edit-movie-form input,
+.edit-movie-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.edit-movie-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.edit-movie-form .form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-movie-form button {
+    padding: 10px 20px;
+    background-color: #f00; /* Red background */
+    color: #fff; /* White text */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-movie-form button:hover {
+    background-color: #c00; /* Darker red on hover */
+}
+
+/* Styles for word wrapping */
+.edit-movie-form .movie-description {
+    overflow-wrap: break-word; /* Wrap long words */
+    word-wrap: break-word; /* Wrap long words for older browsers */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    word-break: break-all; /* Break words if they exceed the container */
+}
