@@ -37,8 +37,6 @@ const HomePage = () => {
       review: ''
     }
   ]);
-  
-  
 
   const [showForm, setShowForm] = useState(false);
   const [editingMovie, setEditingMovie] = useState(null);
@@ -67,7 +65,9 @@ const HomePage = () => {
   };
 
   const deleteMovie = (id) => {
-    setMovies(movies.filter(movie => movie.id !== id));
+    if (window.confirm('Are you sure you want to delete this movie?')) {
+      setMovies(movies.filter(movie => movie.id !== id));
+    }
   };
 
   const toggleWatched = (id) => {
