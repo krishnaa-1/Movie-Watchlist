@@ -9,7 +9,7 @@ const HomePage = () => {
     {
       id: 1719887152305,
       title: 'Inception',
-      description: 'Inception is a mind-bending thriller directed by Christopher Nolan. The story follows a skilled thief, Dom Cobb, who specializes in extracting secrets from deep within the subconscious during the dream state. He is given a chance to have his criminal history erased if he can successfully plant an idea into someone’s mind—a process known as "inception". As Cobb and his team of specialists delve deeper into the target’s dreams, they face numerous challenges and confrontations that blur the lines between reality and illusion.',
+      description: 'Inception is a mind-bending thriller directed by Christopher Nolan. The story follows Dom Cobb, a thief who extracts secrets from the subconscious during dreams. He must plant an idea in someone’s mind to erase his criminal history, facing challenges that blur reality and illusion.',
       releaseYear: 2010,
       genre: 'Sci-Fi',
       watched: false,
@@ -19,7 +19,7 @@ const HomePage = () => {
     {
       id: 1719887152304,
       title: 'Interstellar',
-      description: 'Directed by Christopher Nolan, Interstellar is a sci-fi epic that explores the depths of space and human emotion. Set in a dystopian future where Earth is ravaged by climate change, the story follows a group of astronauts led by Cooper (Matthew McConaughey) as they embark on a perilous journey through a wormhole to find a new habitable planet for humanity. The film delves into themes of love, sacrifice, and the relentless pursuit of knowledge, offering stunning visuals and a thought-provoking narrative that captivates audiences.',
+      description: 'Interstellar, directed by Christopher Nolan, is a sci-fi epic. Set in a dystopian future, a group of astronauts, led by Cooper, embarks on a journey through a wormhole to find a new habitable planet for humanity, exploring themes of love, sacrifice, and the pursuit of knowledge.',
       releaseYear: 2014,
       genre: 'Sci-Fi',
       watched: true,
@@ -29,15 +29,15 @@ const HomePage = () => {
     {
       id: 1719887152303,
       title: 'The Dark Knight',
-      description: 'The Dark Knight, directed by Christopher Nolan, is a gripping superhero film that redefines the genre. The movie follows Bruce Wayne (Christian Bale), aka Batman, as he faces his greatest adversary, the Joker (Heath Ledger). The Joker, a criminal mastermind with a chaotic and sinister agenda, plunges Gotham City into anarchy. As Batman tries to stop him, he faces moral dilemmas and tests of his own limits. The film is celebrated for its complex characters, intense action sequences, and philosophical themes, making it a landmark in cinematic history.',
+      description: 'The Dark Knight, directed by Christopher Nolan, follows Batman as he faces the Joker, a criminal mastermind. The Joker plunges Gotham into anarchy, challenging Batman’s limits and moral code. The film is celebrated for its complex characters, intense action, and philosophical themes.',
       releaseYear: 2008,
       genre: 'Action',
       watched: true,
       rating: 0,
       review: ''
-    },
-   
+    }
   ]);
+  
   
 
   const [showForm, setShowForm] = useState(false);
